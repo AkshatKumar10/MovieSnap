@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "MovieSnap",
+    "slug": "MovieSnap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Images/logo1.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.akshatk_07.MovieSnap"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0bcbc238-946b-46f9-b8b3-34c03bd02989"
+      }
+    }
+  }
+}
